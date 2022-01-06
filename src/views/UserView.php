@@ -47,7 +47,7 @@
                     <td><?php echo $user['hocham'] ?></td>
                     <td><?php echo $user['hocvi'] ?></td>
                     <td><?php echo $user['coquan'] ?></td>
-                    <td><a href="#">edit</a></td>
+                    <td><a href="http://localhost/CSE485_K61_KTGK_1951060964/src/index.php?controller=user&acction=edit&edit=<?php echo $user['magv']  ?>">edit</a></td>
                     <td><a href="http://localhost/CSE485_K61_KTGK_1951060964/src/index.php?controller=user&acction=delete&delete=<?php echo $user['magv']  ?>">delete</a></td>
                 </tr>
 

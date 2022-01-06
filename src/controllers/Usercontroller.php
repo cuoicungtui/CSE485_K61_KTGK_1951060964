@@ -33,7 +33,20 @@
 
         public function edit(){
 
-            
+            if(isset($_POST['submit'])){
+                $magv = number_format($_POST['magv']);
+                $hovaten = $_POST['hovaten'];
+                $ngaysinh= $_POST['ngaysinh'];
+                $gioitinh= $_POST['gioitinh'];
+                $trinhdo = $_POST['trinhdo'];
+                $chuyenmon = $_POST['chuyenmon'];
+                $hocham = $_POST['hocham'];
+                $hocvi = $_POST['hocvi'];
+                $coquan = $_POST['coquan'];
+            }else{
+                require_once 'views/Usereditview.php';
+            }
+        
         }
         
 

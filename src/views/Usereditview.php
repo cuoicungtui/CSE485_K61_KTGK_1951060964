@@ -13,7 +13,7 @@
 <body>
     <div class="container">
 
-        <form action = 'http://localhost/CSE485_K61_KTGK_1951060964/src/index.php?controller=user&acction=add' method="post">
+        <form action = '#' method="post">
            <div class="mb3">
               ID GV:  <input type="text" class="form-control" name="magv" >
               <br>
